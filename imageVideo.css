@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Poppins", sans-serif;
+}
+.ytinnerPage{
+    display: flex;
+    /* justify-content: center; */
+    gap: 2%;
+    margin: 1%;
+}
+.rightytInner{
+    width: 65%;
+}
+.rightytInner video{
+    border-radius: 10px;
+}
+.leftytInner{
+    width: 40%;
+}
+.leftytInner figure img{
+    width: 100%;
+    border-radius: 5px;
+}
+.leftytInner figure{
+    width: 40%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.rightInnerthumbnail{
+    display: flex;
+    gap: 2%;
+    margin-bottom: 3%;
+}
+.logo-thumbnail{
+    width: 55%;
+}
+.thumbnail-firstPera{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 1px 0px;
+}
+.thumbnail-peragraph p:nth-of-type(2), .thumbnail-peragraph p:nth-of-type(3){
+    /* background-color: red; */
+    font-size: 14px;
+    margin: 1px 0px;
+    color: #878787;
+}
+/* ------------------------------------right section 2--------------------------------------------- */
+.style-scope-watch-metadata{
+    display: flex;
+    margin-top: 1%;
+    /* justify-content: center;
+    gap: 10%; */
+}
+.style-scope-watch-metadata p{
+    font-size: 16px;
+    color: #878787;
+}
+.item-time-view-metadata{
+    display: flex;
+    width: 60%;
+}
+.ike-dislike-share-save-metadata{
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+}
+.ytdatamainIcons{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+/* .ytdatamainIcons figure img{
+    width: 100%;
+} */
+figure img{
+    width: 100%;
+}
+.ytdatamainIcons figure{
+    width: 30%;
+}
+.horizontalLine{
+    border: 1px solid #878787;
+    margin: 2% 0;
+}
+.data-image-name-totalsubcriber{
+    display: flex;
+}
+/* .data-subscribers-button p{
+    font-size: 15px;
+    color: #878787;
+} */
+.name-totalSubscribers p:nth-child(2), .request, .commentname-time p:nth-child(2), figcaption, .reply{
+    font-size: 15px;
+    color: #878787;  
+}
+.cover-image-subscriber{
+    display: flex;
+    width: 85%;
+    gap: 2%;
+}
+.about-metadata{
+    display: flex;
+    gap: 2%;
+}
+.channelImage img{
+    width: 100%;
+    border-radius: 50%;
+}
+.channelImage{
+    width: 7%;
+}
+.data-subscribers-button{
+    width: 93%;
+}
+.addbutton{
+    /* background-color: red; */
+    width: 15%;
+}
+.addbutton button{
+    color: white;
+    background-color: red;
+    padding: 8px 25px;
+    border-radius: 7px;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+}
+.name-totalSubscribers p:nth-child(1){
+    font-size: 17px;
+    font-weight: 600;
+}
+.request{
+    margin: 2% 0;
+}
+.writeComments{
+    display: flex;
+    gap: 3%;
+    align-items: center;
+    margin: 2% 0;
+}
+.writeComments figure img{
+    width: 100%;
+    border-radius: 50%;
+}
+.writeComments figure{
+    width: 7%;
+}
+.writeComments input{
+    border: none;
+    border-bottom: 1px solid #878787;
+    width: 93%;
+    padding: 2px 0;
+    font-size: 15px;
+}
+.tomImage img{
+    width: 100%;
+    border-radius: 50%;
+}
+.tomImage{
+    width: 7%;
+}
+.commentHeader{
+    display: flex;
+    gap: 2%;
+}
+.comment-like-dis{
+    display: flex;
+    gap: 2%;
+}
+#addComentsandIcons{
+    display: none;
+  margin: 2% 0;
+}
+.likedislikeIcons figure img{
+    width: 100%;
+}
+.likedislikeIcons figure{
+    width: 30%;
+}
+.likedislikeIcons{
+    display: flex;
+    gap: 8%;
+}
+.commentname-time{
+    display: flex;
+    gap: 2%;
+}
+.ytcomment{
+    width: 90%;
+}
+.allReplies{
+    color: blue;
+    cursor: pointer;
+}
+/* .buttonforcomments{
+    display: none;
+} */
+/* input:focus .buttonforcomments{
+    display: block;
+} */
+
+/* media queries  */
+@media screen and (max-width : 1260px){
+    
+}

@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.container {
+    display: flex;
+}
+
+/* //////////////////////////////////////left comntainer ////////////////////// */
+.leftcontainer {
+    width: 17%;
+    margin: 0 0.5%;
+    padding-right: 15px;
+    /* position: -webkit-sticky; */
+    top: 0;
+    position: sticky;
+    overflow-y: scroll;
+    height: 630px;
+}
+
+/* Handle on hover */
+.leftcontainer::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.leftTopContainerIcon,
+.leftbottomContainerIcon {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    padding: 0% 8%;
+    cursor: pointer;
+    height: 8vh;
+}
+
+.home {
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+.leftTopContainerIcon p {
+    font-size: 15px;
+}
+
+.leftTopContainerIcon:hover,
+.leftbottomContainerIcon:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+.leftTopContainerIcon figure {
+    width: 15%;
+}
+
+.leftTopContainerIcon figure img {
+    width: 100%;
+    border-radius: 50px;
+
+}
+
+.leftbottomContainerIcon figure {
+    width: 15%;
+}
+
+.leftbottomContainerIcon figure img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.leftbottomContainerIcon p {
+    font-size: 15px;
+}
+
+.horozontalLine {
+    /* width: 70%; */
+    margin: 8% 0;
+    border-top: 1px solid rgb(139, 135, 135);
+}
+
+.SubscribedChannel {
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+
+/* //////////////////////////////////// rightContainer //////////////////////////////////// */
+.rightcontainer {
+    width: 83%;
+    top: 0;
+    right: 0;
+    position: sticky;
+    overflow-y: scroll;
+    height: 630px;
+}
+
+.banner figure img {
+    width: 100%;
+}
+
+.banner figure {
+    width: 100%;
+}
+
+.rightcontainerContent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.content-img-thumbnails {
+    width: 32%;
+    margin: 12px 0;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.content-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.content-image {
+    width: 99%;
+}
+
+.logo-thumbnail {
+    display: flex;
+    gap: 4%;
+    margin: 2% 0;
+}
+
+.logo-thumbnail figure img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.logo-thumbnail figure {
+    width: 20%;
+}
+
+.thumbnail-firstPera{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* .thumbnail-peragraph p:nth-of-type(2) {
+    font-size: 15px;
+} */
+
+.thumbnail-peragraph p:nth-of-type(3) {
+    font-size: 15px;
+}
+
+.thumbnail-peragraph{
+    position: relative;
+}
+.hoverEffect{
+    border: 1px solid black;
+    font-size: 13px;
+    width: 100%;
+    z-index: 99;
+    position: absolute;
+    top: 29px;
+    padding: 2px;
+    display: none;
+    background-color: grey;
+}
+
+/* media queries 1205px */
+@media screen and (max-width: 1205px){
+    .leftcontainer{
+        /* background-color: red; */
+        width: 20%;
+    }
+    .rightcontainer{
+        width: 80%;
+    }
+    .thumbnail-firstPera {
+        font-size: 15px;
+    }
+    .yt-tut-views{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .leftcontainer {
+        width: 22%;
+    }
+    .rightcontainer {
+        width: 78%;
+    }
+    .content-img-thumbnails {
+        width: 49%;
+    }
+    .leftBottomContainer{
+        display: none;
+    }
+    .horozontalLine{
+        display: none;
+    }
+}
+@media screen and (max-width : 700px){
+    .leftcontainer{
+        display: none;
+    }
+    .rightcontainer{
+        width: 100%;
+        margin: 0 2%;
+    }
+}
+
+@media screen and (max-width : 570px){
+    .thumbnail-firstPera {
+        font-size: 13px;
+    }
+    .yt-tut-views{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width : 500px){
+    .content-img-thumbnails {
+        width: 100%;
+    }
+    .logo-thumbnail figure {
+        width: 12%;
+    }
+    .thumbnail-firstPera{
+        font-size: 16px;
+    }
+    .yt-tut-views{
+        display: flex;
+        gap: 3%;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width : 450px){
+    .thumbnail-firstPera, .yt-tut-views{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width : 400px){
+.yt-tut-views {
+    font-size: 13px;
+}
+.logo-thumbnail figure {
+    width: 20%;
+}
+}

@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navBar{
+  display: flex;
+  padding: 1% 2%;
+  justify-content: space-between;
+  height: 10vh;
+}
+.nav-left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+.nav-Menu{
+  width: 15%;
+}
+.nav-logo{
+  width: 100%;
+}
+.nav-Menu img{
+  width: 60%;
+}
+.nav-logo img{
+  width: 50%;
+}
+.nav-middle{
+  display: flex;
+  align-items: center;
+  gap: 2%;
+  width: 60%;
+}
+.nav-inputBox-searchIcon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  /* height: 8vh; */
+  /* padding: 5%; */
+}
+.nav-inputBox-searchIcon input{
+  width: 100%;
+  padding: 2%;
+  border-radius: 50px 0px 0px 50px;
+  border: 1px solid grey;
+  font-size: 16px;
+}
+/* -------------------------------------- input focus ----------------------- */
+input:focus{
+  outline:blue;
+}
+.serchIconImg{
+  width: 10%;
+  padding: 1.7%;
+  border: 1px solid grey;
+  border-left: 0px solid gray;
+  border-radius: 0px 50px 50px 0px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(248,248,248, 1);
+}
+.serchIconImg img{
+  width: 55%;
+  margin: 0 auto;
+}
+.voice-search{
+  width: 20%;
+}
+.voice-search figure{
+  width: 100%;
+}
+.voice-search figure img{
+  width: 25%;
+  border-radius: 50%;
+  padding: 5% 7%;
+  background-color: rgb(242,242,242);
+}
+.nav-right{
+  display: flex;
+  align-items: center;
+  width: 10%;
+}
+.uploadIcon, .notificationIcon, .jackImg{
+  width: 100%;
+}
+.uploadIcon img{
+  width: 60%;
+}
+.notificationIcon img{
+  width: 60%;
+}
+.jackImg img{
+  border-radius: 50px;
+  width: 90%;
+}
+
